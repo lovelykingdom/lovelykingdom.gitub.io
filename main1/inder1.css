@@ -691,7 +691,10 @@
    margin-block-end: 100px;
  }
  
- .navbar-item { border-block-start: 1px solid var(--white-alpha-20); }
+ .navbar-item { 
+  padding-top: 10%;
+  border-block-start: 1px solid var(--white-alpha-20);
+ }
  
  .navbar-link {
    position: relative;
@@ -1803,6 +1806,7 @@
      display: grid;
      grid-template-columns: 1fr 1fr;
      text-align: left;
+     padding-top: 3.5%;
    }
  
    .special-dish-content { padding-inline: 50px 25px; }
@@ -2134,3 +2138,4 @@
    }
  
  }
+ 
